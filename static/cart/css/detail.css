@@ -1,0 +1,231 @@
+/*
+Template Name:Store
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************detail****************/
+.center_detail {
+    background-image: url(../img/29.jpg);
+}
+.center_product_main{
+  background:#00000059;
+  padding-top:150px;
+  padding-bottom:150px;
+  }
+.center_product_1_left h4{
+  color:#fff;
+  }
+.center_product_1_right ul li{
+  display:inline-block;
+  padding-left:10px;
+  padding-right:10px;
+  color:#fff;
+  }
+.center_product_1_right ul li a{
+ color:#fff;
+ }
+.center_product_1_right ul li a:hover{
+ color:#ff8c04;
+ }
+ 
+.product_page_left_2{
+ margin-top:0;
+ margin-bottom:20px; 
+  }
+  
+/* Main carousel style */
+.product_detail_right_1_left .carousel {
+    width: 100%;
+}
+
+/* Indicators list style */
+.article-slide .carousel-indicators {
+    bottom: -110px;
+    left: 0;
+    margin-left: 5px;
+    width: 100%;
+}
+/* Indicators list style */
+.article-slide .carousel-indicators li {
+    border: medium none;
+    border-radius: 0;
+    float: left;
+    height: 80px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 5px !important;
+    margin-top: 0;
+    width:23.3%;
+}
+/* Indicators images style */
+.article-slide .carousel-indicators img {
+    border: 2px solid #FFFFFF;
+    float: left;
+    height: 80px;
+    left: 0;
+     width:100%;
+}
+/* Indicators active image style */
+.article-slide .carousel-indicators .active img {
+    border: 3px solid rgb(154,11,11);
+    opacity: 0.7;
+}
+
+.mag img {
+    max-width: 100%;
+}
+.magnify {
+    position: relative;
+    cursor: none
+}
+.magnify-large {
+	position: absolute;
+	display: none;
+	width: 175px;
+	height: 175px;
+	-webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%
+}  
+
+.product_detail_right_2{
+  margin-top:100px; 
+   }
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+  background:#ff8c04;
+  color:#fff;
+  }
+.product_detail_right_2 ul{
+ margin-bottom:20px; 
+  }
+.product_detail_right_2 ul li a{
+  color:#000;
+  border:none!important;
+  }
+
+.product_detail_right_2 ul li a:hover{
+  color:#fff;
+  background:#ff8c04;
+  }
+#menu1 ul li{
+margin-bottom:10px; 
+ }
+#menu1 ul li span{
+color:#999;
+margin-left:10px;
+ }
+#menu2 h3{
+line-height:1.4em;  
+  }
+#menu2 .heading_tag{
+font-weight:bold;
+border-bottom:1px solid #ddd;
+padding-bottom:10px;
+margin-bottom:20px;  
+  }
+#menu2 h5{
+margin-bottom:10px;
+font-size:16px; 
+  } 
+#menu2 h5 span{
+color:#FF0000; 
+  } 
+#menu2 h5 i{
+color:#999;
+font-size:18px;
+  }
+#menu2 h5 i:hover{
+color:#ff8c04;
+  }
+#menu2 h6{
+margin-top:20px;
+font-size:16px; 
+  } 
+#menu2 .form-control{
+margin-top:10px;
+font-size:16px;
+height:40px;
+  } 
+#menu2 .form_1{
+ height:120px; 
+  }
+#menu2 h4{
+ font-size:16px;
+ margin-top:35px;
+  }
+#menu2 h4 a{
+background:#ff8c04; 
+padding:10px 20px;
+color:#fff;
+  }
+#menu2 h4 a:hover{
+  background:#000;
+  }
+.product_home_1{
+  margin-top:40px;
+  }
+/*********************detail_end****************/
+
+@media screen and (max-width : 767px){
+.product_detail_right_1 {
+ margin-top:15px; 
+  }
+.article-slide .carousel-indicators li{
+  width:22.5%;
+  }
+.product_page_right_2_right {
+  margin-top:110px;
+  text-align:center;
+  }
+.product_detail_right_2 {
+margin-top:20px;  
+  }
+.tab-content{
+ text-align:center;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.center_product_1_right ul li{
+  font-size:14px;
+  }
+figure.effect-layla figcaption{
+padding:0!important;  
+  }
+figure.effect-layla p{
+ padding:10px!important; 
+  }
+.article-slide .carousel-indicators li{
+ width:22%;
+ }
+.product_page_right_2_right ul li{
+  margin-left:0;
+  margin-right:0;
+  }
+.product_page_right_2_right ul li .tag_3{
+ padding:10px; 
+  }
+.product_detail_right_2 ul li a{
+ font-size:14px;
+ padding:10px 9px; 
+  }
+.product_home_1 {
+ margin-top:30px!important; 
+  }
+ }
+ @media (min-width:992px) and (max-width:1200px) {
+.product_home_1 {
+ margin-top:30px!important; 
+  }
+ }
+@media (min-width:1201px) and (max-width:1315px) {
+
+ }
+
+
+
